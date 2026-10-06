@@ -1,5 +1,6 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
+import { Analytics } from '@vercel/analytics/react'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Projects from './pages/Projects'
@@ -33,6 +34,7 @@ export default function App() {
       <footer className="footer">
         © {new Date().getFullYear()} Ahmad Jawad Bandesha — Built with React
       </footer>
+      <Analytics />
     </div>
   )
 }
