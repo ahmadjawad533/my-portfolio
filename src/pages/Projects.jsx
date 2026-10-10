@@ -2,9 +2,37 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { Github, ExternalLink } from 'lucide-react'
 
-// Screenshots are empty for now. Point `ss` at a real file you drop in public/
-// (e.g. ss: '/tictactoe.png') and that card's screenshot block renders again.
-// Same idea for `live`: set it to a real URL to bring back the "Live" button.
+/**
+ * PROJECTS Array - Portfolio Projects Configuration
+ *
+ * Structure:
+ * - title (string): Human-readable project name
+ * - desc (string): 1-2 sentence project description
+ * - ss (string): Screenshot image path (e.g., '/screenshot.png'). Leave empty '' to hide screenshot section.
+ * - tech (array): Array of technology tags (e.g., ['React', 'Node.js', 'MongoDB'])
+ * - live (string): Live demo URL. Set to '#' or '' to hide Live button.
+ * - code (string): GitHub repository URL (required for Code button)
+ *
+ * HOW TO ADD MANUAL PROJECTS:
+ * Simply add a new object to the array with the structure above:
+ * {
+ *   title: 'My Project',
+ *   desc: 'Description of the project',
+ *   ss: '/my-screenshot.png',  // or '' to hide
+ *   tech: ['React', 'Node.js'],
+ *   live: 'https://myproject.com',  // or '#' to hide
+ *   code: 'https://github.com/username/repo'
+ * }
+ *
+ * AUTO-GENERATED PROJECTS:
+ * New projects are added automatically when you run:
+ *   npm run build:portfolio
+ * or during: npm run build
+ *
+ * The build script fetches public repositories from your GitHub profile
+ * (github.com/ahmadjawad533 by default) and adds them to this array.
+ * Existing projects are always preserved and never overwritten.
+ */
 const PROJECTS = [
 {
   title: 'Tic Tac Toe (AI Edition)',
