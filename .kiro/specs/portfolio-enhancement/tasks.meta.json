@@ -1,0 +1,740 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Set up project structure and core build infrastructure": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610460169
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610489141
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610588203
+      }
+    ],
+    "2.1 Create `src/utils/nameHumanizer.js` with core structure": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610460337
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610597160
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610638533
+      }
+    ],
+    "2.2 Implement `humanizeName()` function": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610460481
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610642127
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610823345
+      }
+    ],
+    "2.3 Write property tests for `humanizeName()`": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610460644
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614061631
+      }
+    ],
+    "2.4 Implement `ensureUniqueTitle()` function": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610460936
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614062145
+      }
+    ],
+    "2.5 Write property tests for `ensureUniqueTitle()`": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610461065
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614062502
+      }
+    ],
+    "3.1 Create `src/utils/githubProcessor.js` with core structure": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610461186
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610642503
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610823855
+      }
+    ],
+    "3.2 Implement `fetchGitHubRepos()` function": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610461332
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614063017
+      }
+    ],
+    "3.3 Implement `filterRepositories()` function": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610462840
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614063277
+      }
+    ],
+    "3.4 Implement `transformToProjectEntry()` function": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610463953
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614063615
+      }
+    ],
+    "3.5 Write property tests for GitHub filtering and transformation": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610465158
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614063993
+      }
+    ],
+    "3.6 Implement `buildUpdatedProjects()` function": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610465457
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614064302
+      }
+    ],
+    "4.1 Create `src/utils/imageProcessor.js` with core structure": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610465809
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614064863
+      }
+    ],
+    "4.2 Implement `scanImageFiles()` function": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610466007
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614065376
+      }
+    ],
+    "4.3 Implement `categorizeImage()` function": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610466201
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614065621
+      }
+    ],
+    "4.4 Write property tests for image categorization": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610466719
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614065861
+      }
+    ],
+    "4.5 Implement `generateCaption()` function": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610467154
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614066161
+      }
+    ],
+    "4.6 Write property tests for caption generation": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610467377
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614066500
+      }
+    ],
+    "4.7 Implement `organizeGalleryImages()` function": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610467804
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614067000
+      }
+    ],
+    "4.8 Write property tests for image organization": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610467990
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614067334
+      }
+    ],
+    "4.9 Implement `buildGalleryObject()` function": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610468191
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614067603
+      }
+    ],
+    "5. Checkpoint - Verify utility modules are complete and tested": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610468756
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614079255
+      }
+    ],
+    "6.1 Create `scripts/build-portfolio-data.js` with main orchestration": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610469414
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614956705
+      }
+    ],
+    "6.2 Implement project file extraction and update logic": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610469784
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614971425
+      }
+    ],
+    "6.3 Implement gallery file extraction and update logic": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610470157
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614971606
+      }
+    ],
+    "6.4 Wire GitHub processor into build script": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610470546
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614972089
+      }
+    ],
+    "6.5 Wire image processor into build script": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610470949
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614972511
+      }
+    ],
+    "6.6 Add shebang and make script executable": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610471220
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614972811
+      }
+    ],
+    "7.1 Add build:portfolio script to package.json": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610471651
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614973417
+      }
+    ],
+    "7.2 Update build script to handle GITHUB_TOKEN": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610471922
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614973766
+      }
+    ],
+    "8.1 Update `vite.config.mjs` to add build hook": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610472120
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614974361
+      }
+    ],
+    "8.2 Test Vite integration": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610472345
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614974629
+      }
+    ],
+    "9.1 Review current Projects.jsx structure": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610472543
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614974972
+      }
+    ],
+    "9.2 Verify auto-generated projects are added": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610472764
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614975597
+      }
+    ],
+    "9.3 Add inline documentation": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610472955
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614975801
+      }
+    ],
+    "10.1 Review current Gallery.jsx structure": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610473150
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614976211
+      }
+    ],
+    "10.2 Verify auto-generated images are added": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610473337
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614976494
+      }
+    ],
+    "10.3 Add inline documentation": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610473554
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614977026
+      }
+    ],
+    "11.1 Create public/gallery/ directory structure": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610473725
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614977285
+      }
+    ],
+    "11.2 Run build script to populate gallery images": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610473933
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614977712
+      }
+    ],
+    "11.3 Verify gallery images are correctly categorized": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610474159
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614978125
+      }
+    ],
+    "12.1 Create or update .env.example file": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610474347
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614978411
+      }
+    ],
+    "12.2 Update README with setup instructions": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610474525
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614978974
+      }
+    ],
+    "13. Checkpoint - Integration and manual testing": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610474717
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614959842
+      }
+    ],
+    "14.1 Enhance error messages across all modules": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610474931
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614979278
+      }
+    ],
+    "14.2 Test error scenarios manually": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610475116
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614979717
+      }
+    ],
+    "15.1 Document all utility modules": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610475353
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614980005
+      }
+    ],
+    "15.2 Document build script": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610475534
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614980505
+      }
+    ],
+    "15.3 Document component updates": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610475733
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614980909
+      }
+    ],
+    "16.1 Run full build process end-to-end": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610475929
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614981257
+      }
+    ],
+    "16.2 Test graceful degradation scenarios": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610476117
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614981645
+      }
+    ],
+    "17. Final checkpoint - All tests pass": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791610476313
+      },
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614961351
+      }
+    ],
+    "3. Implement the GitHub Processor utility module": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614064666
+      }
+    ],
+    "6. Implement the build script orchestrator": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614957084
+      }
+    ],
+    "7. Integrate build script into package.json": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614957519
+      }
+    ],
+    "8. Integrate portfolio data build into Vite build system": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614957933
+      }
+    ],
+    "9. Update Projects.jsx with auto-generated data": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614958337
+      }
+    ],
+    "10. Update Gallery.jsx with auto-generated images": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614958685
+      }
+    ],
+    "11. Organize workspace images into public/gallery/ structure": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614959120
+      }
+    ],
+    "12. Create .env setup documentation": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614959573
+      }
+    ],
+    "14. Add comprehensive error handling and logging": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614960210
+      }
+    ],
+    "15. Add comprehensive inline documentation and comments": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614960621
+      }
+    ],
+    "16. Final integration test": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614961033
+      }
+    ],
+    "2. Implement the Name Humanizer utility module": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614994641
+      }
+    ],
+    "4. Implement the Image Processor utility module": [
+      {
+        "executionId": "e0905278-9e41-4ec4-a3d0-401bf1762386",
+        "chatSessionId": "sess_33d23be2-afce-4383-80fa-80da651848c2",
+        "timestamp": 1791614995173
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+/* Skills Container */
+.skills-container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: linear-gradient(180deg, #0B0F14 0%, #0B0F14 100%);
+  color: #E5E7EB;
+  padding: 2rem 1.5rem 4rem;
+}
+
+.skills-header {
+  text-align: center;
+  margin: 2rem 0 3rem 0;
+  padding: 0;
+  max-width: 800px;
+}
+
+.skills-header h2 {
+  color: #FF8A00;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.skills-header p {
+  color: #E5E7EB;
+  font-size: 1rem;
+  margin: 0.5rem auto 0;
+  line-height: 1.6;
+}
+
+/* Floating Orbs Stage */
+.skills-stage {
+  width: 100%;
+  max-width: 1100px;
+  height: 550px;
+  margin: 1.5rem auto 3rem;
+  position: relative;
+}
+
+/* Skill Circle (Orbs) */
+.skill-circle {
+  position: absolute;
+}
+
+.skill-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.skill-circle span {
+  color: #FFB84D;
+}
+
+/* Skills Table */
+.skills-table {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skills-row {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.skill-box {
+  text-align: left;
+}

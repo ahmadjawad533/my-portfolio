@@ -1,0 +1,118 @@
+:root {
+  --accent: #FF8A00;
+  --accent-2: #FF8A00;
+  --bg: #0B0F14;
+  --card: #1F2937;
+  --text: #E5E7EB;
+}
+
+.contact-section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: linear-gradient(180deg, var(--bg) 0%, var(--bg) 100%);
+  color: var(--text);
+  padding: 2rem 1.5rem 4rem;
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 2.6rem;
+  margin: 1.5rem 0 0.5rem;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.contact-subtitle {
+  font-size: 1.1rem;
+  color: var(--text);
+  max-width: 700px;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 2.2rem;
+  z-index: 1;
+}
+
+.social-link {
+  display: inline-block;
+}
+
+.social-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--accent);
+  background: rgba(255, 138, 0, 0.08);
+  padding: 8px;
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  box-shadow: 0 0 15px rgba(255, 138, 0, 0.3);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 138, 0, 0.2);
+  background: var(--card);
+  color: var(--text);
+  outline: none;
+  font-size: 1rem;
+  resize: none;
+  transition: all 0.3s ease;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: rgba(229, 231, 235, 0.5);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: var(--accent);
+  background: var(--card);
+  box-shadow: 0 0 10px rgba(255, 138, 0, 0.15);
+}
+
+.contact-btn {
+  padding: 12px;
+  background: var(--accent);
+  border: none;
+  border-radius: 8px;
+  color: var(--bg);
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact-btn:hover {
+  background: #FFB84D;
+  transform: translateY(-2px);
+}
+
+.contact-status {
+  margin-top: 10px;
+  color: var(--accent);
+  font-weight: 500;
+}
