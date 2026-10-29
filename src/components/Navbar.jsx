@@ -60,17 +60,17 @@ export default function Navbar() {
             transition={{ type: "spring", stiffness: 200 }}
             style={{
               fontWeight: "bold",
-              fontSize: "1.4rem",
+              fontSize: "clamp(1rem, 2vw, 1.4rem)",
               color: "var(--accent)",
             }}
           >
             AJ
           </motion.div>
-          <div style={{ display: "flex", flexDirection: "column" }}>
-            <h1 style={{ margin: 0, fontSize: 14, whiteSpace: "nowrap" }}>
+          <div style={{ display: "flex", flexDirection: "column", minWidth: 0 }}>
+            <h1 style={{ margin: 0, fontSize: "clamp(0.8rem, 1.5vw, 14px)", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
               Ahmad Jawad Bandesha
             </h1>
-            <div style={{ fontSize: 12, color: "var(--muted)" }}>
+            <div style={{ fontSize: "clamp(0.65rem, 1vw, 12px)", color: "var(--muted)", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
               Developer • Community Builder
             </div>
           </div>
@@ -82,9 +82,10 @@ export default function Navbar() {
           style={{
             display: showButton ? "none" : "flex",
             justifyContent: "center",
-            gap: "2rem",
+            gap: "clamp(1rem, 2vw, 2rem)",
             alignItems: "center",
             flexGrow: 1,
+            flexWrap: "wrap",
           }}
         >
           {links.map((l) => (
@@ -94,7 +95,7 @@ export default function Navbar() {
               end
               style={{
                 position: "relative",
-                fontSize: "0.95rem",
+                fontSize: "clamp(0.7rem, 1.5vw, 0.95rem)",
                 textDecoration: "none",
                 color: "white",
                 fontWeight: 500,

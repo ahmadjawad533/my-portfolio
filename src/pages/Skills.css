@@ -76,3 +76,87 @@
 .skill-box {
   text-align: left;
 }
+
+/* Responsive Design */
+
+/* Tablet: 768px and below */
+@media (max-width: 768px) {
+  .skills-container {
+    padding: 1.5rem 1rem 3rem;
+  }
+
+  .skills-header h2 {
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .skills-stage {
+    height: 400px;
+    margin: 1rem auto 2rem;
+  }
+
+  .skills-row {
+    gap: 1rem;
+  }
+
+  .skill-box {
+    width: 100%;
+  }
+}
+
+/* Mobile: 480px and below */
+@media (max-width: 480px) {
+  .skills-container {
+    padding: 1rem 0.8rem 2rem;
+  }
+
+  .skills-header h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .skills-header p {
+    font-size: 0.9rem;
+  }
+
+  .skills-stage {
+    height: 300px;
+    margin: 0.8rem auto 1.5rem;
+  }
+
+  .skill-circle {
+    width: 80px !important;
+    height: 80px !important;
+  }
+
+  .skill-circle img {
+    width: 35px !important;
+    height: 35px !important;
+  }
+
+  .skill-circle span {
+    font-size: 10px;
+  }
+
+  .skills-table {
+    margin-top: 30px;
+    gap: 20px;
+  }
+
+  .skills-row {
+    gap: 0.8rem;
+  }
+
+  .skill-box {
+    padding: 1rem;
+    min-width: 100%;
+  }
+
+  .skill-box h3 {
+    font-size: 1rem;
+  }
+
+  .skill-box ul {
+    font-size: 0.9rem;
+  }
+}

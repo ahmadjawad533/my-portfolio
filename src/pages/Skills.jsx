@@ -205,7 +205,7 @@ export default function Skills() {
       {/* Skills Table (Text Section) */}
       <div className="skills-table">
         {ROWS.map((row, rowIndex) => (
-          <div key={rowIndex} className="skills-row" style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "1.5rem", maxWidth: "1400px", margin: "0 auto", width: "100%", padding: "0 2rem", boxSizing: "border-box" }}>
+          <div key={rowIndex} className="skills-row" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: "1.5rem", maxWidth: "1400px", margin: "0 auto", width: "100%", padding: "0 1.5rem", boxSizing: "border-box" }}>
             {row.map((col, colIndex) => (
               <motion.div
                 key={col.title}

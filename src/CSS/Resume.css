@@ -131,3 +131,176 @@
   font-weight: 500;
   letter-spacing: 0.3px;
 }
+
+
+/* Responsive Design */
+
+/* Tablet: 768px and below */
+@media (max-width: 768px) {
+  .resume-container {
+    padding: 40px 0;
+  }
+
+  .resume-card {
+    padding: 30px 20px;
+    border-radius: 12px;
+  }
+
+  .resume-title {
+    font-size: 24px;
+  }
+
+  .resume-profile {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .profile-info h3 {
+    font-size: 20px;
+  }
+
+  .resume-section {
+    padding: 16px 16px;
+  }
+
+  .resume-section h4 {
+    font-size: 18px;
+  }
+
+  .resume-pdf iframe {
+    height: 500px;
+  }
+
+  .skills-list {
+    gap: 8px;
+  }
+
+  .skills-list span {
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+}
+
+/* Mobile: 480px and below */
+@media (max-width: 480px) {
+  .resume-container {
+    padding: 20px 0;
+  }
+
+  .resume-card {
+    padding: 16px 12px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 138, 0, 0.05);
+  }
+
+  .resume-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .resume-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .resume-profile {
+    flex-direction: column;
+    padding: 12px 14px;
+    border-radius: 10px;
+    gap: 12px;
+  }
+
+  .profile-info h3 {
+    font-size: 18px;
+    margin-bottom: 3px;
+  }
+
+  .profile-info p {
+    font-size: 12px;
+  }
+
+  .profile-summary {
+    padding: 10px 12px;
+    font-size: 12px;
+    max-width: 100%;
+  }
+
+  .profile-summary strong {
+    display: block;
+    margin-bottom: 6px;
+  }
+
+  .resume-section {
+    margin-top: 20px;
+    padding: 12px 14px;
+    border-radius: 10px;
+  }
+
+  .resume-section h4 {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .resume-section ul {
+    line-height: 1.6;
+    font-size: 0.9rem;
+  }
+
+  .resume-section li span {
+    font-size: 0.85rem;
+  }
+
+  .resume-pdf iframe {
+    height: 300px;
+    border-radius: 8px;
+  }
+
+  .resume-links {
+    gap: 15px;
+    margin-top: 25px;
+    flex-wrap: wrap;
+  }
+
+  .resume-links a {
+    font-size: 13px;
+  }
+
+  .resume-download {
+    padding: 8px 14px;
+    font-size: 0.85rem;
+    border-radius: 6px;
+  }
+
+  .skills-list {
+    gap: 6px;
+  }
+
+  .skills-list span {
+    padding: 3px 6px;
+    font-size: 11px;
+    border-radius: 4px;
+  }
+}
+
+/* Extra Small: 320px and below */
+@media (max-width: 320px) {
+  .resume-card {
+    padding: 12px 10px;
+  }
+
+  .resume-title {
+    font-size: 18px;
+  }
+
+  .profile-info h3 {
+    font-size: 16px;
+  }
+
+  .resume-pdf iframe {
+    height: 250px;
+  }
+
+  .resume-download {
+    padding: 6px 12px;
+    font-size: 0.75rem;
+  }
+}

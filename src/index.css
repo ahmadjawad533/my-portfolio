@@ -112,6 +112,112 @@ body{
   .hero-photo{width:260px;height:260px}
   .gallery-grid{grid-template-columns:repeat(auto-fit,minmax(140px,1fr))}
   .skills-stage{height:360px}
+  .container{padding:0 16px}
+  .nav{padding:12px 16px}
+  .brand h1{font-size:14px}
+  .projects-grid{grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+}
+
+/* Tablet: 768px and below */
+@media (max-width:768px){
+  .hero-hero{padding:20px 16px;min-height:auto}
+  .hero-intro h1{font-size:28px}
+  .hero-photo{width:220px;height:220px}
+  .container{margin:20px auto;padding:0 14px}
+  .nav{padding:10px 14px;gap:12px}
+  .nav-links{gap:8px}
+  .nav-links a, .nav-links button{padding:6px;font-size:0.85rem}
+  .quick-links{gap:6px}
+  .quick-links a{font-size:16px;padding:6px}
+  .card{padding:16px;border-radius:12px}
+  .blog-grid{grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+  .blog-section{padding:40px 5%}
+  .blog-title{font-size:2rem}
+  .projects-grid{grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+  .gallery-grid{grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px}
+  .gallery-item{height:150px;font-size:12px}
+  .skills-stage{height:300px}
+  .certs-grid{grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+}
+
+/* Mobile: 480px and below */
+@media (max-width:480px){
+  :root{font-size:14px}
+  body{overflow-x:hidden}
+  .container{margin:16px auto;padding:0 12px}
+  .nav{padding:8px 12px;flex-wrap:wrap;gap:8px}
+  .brand{gap:8px}
+  .brand .logo{width:36px;height:36px;font-size:14px}
+  .brand h1{font-size:12px;letter-spacing:0.2px}
+  .nav-links{gap:4px;flex-wrap:wrap;justify-content:flex-start}
+  .nav-links a, .nav-links button{padding:4px 6px;font-size:0.75rem;border-radius:6px}
+  .quick-links{gap:4px}
+  .quick-links a{font-size:14px;padding:4px}
+  
+  /* Hero Section */
+  .hero-hero{padding:16px 12px;min-height:auto;gap:16px}
+  .hero-intro h1{font-size:22px;line-height:1.1;margin:0 0 4px 0}
+  .hero-intro p.lead{font-size:14px}
+  .hero-photo{width:180px;height:180px;border-radius:16px}
+  .hero-cta{flex-direction:column;gap:8px;margin-top:12px}
+  
+  /* Cards */
+  .card{padding:12px;border-radius:10px;gap:12px}
+  
+  /* Projects */
+  .projects-grid{grid-template-columns:1fr;gap:10px}
+  .project-card .ss{height:160px}
+  
+  /* Gallery */
+  .gallery-grid{grid-template-columns:repeat(2,1fr);gap:8px}
+  .gallery-item{height:120px;padding:8px;font-size:11px}
+  
+  /* Blog */
+  .blog-section{padding:20px 4%;text-align:center}
+  .blog-title{font-size:1.5rem;margin-bottom:8px}
+  .blog-sub{font-size:0.9rem;margin-bottom:20px}
+  .blog-grid{grid-template-columns:1fr;gap:12px}
+  .blog-post{padding:16px;border-radius:12px}
+  .post-text{font-size:0.9rem}
+  .vote-container{gap:12px;margin-top:10px}
+  .vote-btn{padding:8px 12px;font-size:0.85rem}
+  
+  /* Skills */
+  .skills-stage{height:250px}
+  .skills-grid{padding:0 12px}
+  
+  /* Contact */
+  .contact-section{padding:1.5rem 1rem 2rem}
+  .contact-title{font-size:2rem}
+  .contact-subtitle{font-size:1rem}
+  .contact-form{max-width:100%}
+  .contact-form input, .contact-form textarea{font-size:14px;padding:10px}
+  .social-link{width:50px;height:50px}
+  
+  /* Resume */
+  .resume-card{padding:20px 16px}
+  .resume-title{font-size:22px}
+  .resume-profile{flex-direction:column;gap:12px}
+  .resume-pdf iframe{height:400px}
+  .resume-download{padding:8px 16px;font-size:0.9rem}
+  
+  /* Certificates/Achievements */
+  .certs-grid{grid-template-columns:1fr}
+  .certs-card{padding:16px}
+}
+
+/* Extra Small Mobile: 320px and below */
+@media (max-width:320px){
+  :root{font-size:12px}
+  .container{padding:0 8px}
+  .nav{padding:6px 8px}
+  .brand h1{font-size:11px}
+  .nav-links a{padding:3px 4px;font-size:0.7rem}
+  .hero-intro h1{font-size:18px}
+  .hero-photo{width:150px;height:150px}
+  .blog-title{font-size:1.3rem}
+  .gallery-grid{grid-template-columns:1fr}
+  .contact-title{font-size:1.5rem}
 }
 
 /* 🌙 Contact Section Styling */
