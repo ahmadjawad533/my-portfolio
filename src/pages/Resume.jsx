@@ -371,7 +371,7 @@ export default function Resume() {
           }}
         >
           <iframe
-            src="/resume.pdf"
+            src="/Resume.pdf"
             title="Ahmad Jawad Bandesha Resume"
             style={{
               width: "100%",
@@ -384,7 +384,7 @@ export default function Resume() {
 
         {/* Download Button */}
         <motion.a
-          href="/resume.pdf"
+          href="/Resume.pdf"
           download
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}

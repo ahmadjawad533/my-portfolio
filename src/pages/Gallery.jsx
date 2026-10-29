@@ -48,7 +48,9 @@ import "../CSS/Gallery.css";
  *             "notification", "announcement", "leader", "advisor", "campus", "notion"
  */
 const IMAGES = {
-  personal: [],
+  personal: [
+    { id: 'profile_pic', caption: 'Profile Pic', photos: ["/gallery/personal/Profile pic.png"] }
+  ],
   projects: [],
   achievements: [],
 };
