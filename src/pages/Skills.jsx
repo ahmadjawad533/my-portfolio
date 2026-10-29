@@ -225,15 +225,15 @@ export default function Skills() {
                   width: "100%",
                 }}
               >
-                <h3 style={{ color: "#FF8A00", fontSize: "1.2rem", marginBottom: "1rem", fontWeight: 700 }}>{col.title}</h3>
+                <h3 style={{ color: "#FF8A00", fontSize: "clamp(0.9rem, 2vw, 1.2rem)", marginBottom: "1rem", fontWeight: 700 }}>{col.title}</h3>
                 <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
                   {col.items.map((item, i) => (
                     <motion.li
                       key={i}
-                      style={{ color: "#E5E7EB", marginBottom: "0.5rem", fontSize: "0.95rem" }}
+                      style={{ color: "#E5E7EB", marginBottom: "0.5rem", fontSize: "clamp(0.8rem, 1.5vw, 0.95rem)" }}
                       whileHover={{ x: 6, color: "#FF8A00" }}
                     >
-                      {item}
+                      • {item}
                     </motion.li>
                   ))}
                 </ul>

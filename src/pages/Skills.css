@@ -141,10 +141,13 @@
   .skills-table {
     margin-top: 30px;
     gap: 20px;
+    padding: 0 0.5rem;
   }
 
   .skills-row {
-    gap: 0.8rem;
+    grid-template-columns: 1fr !important;
+    gap: 1rem !important;
+    padding: 0 0.5rem !important;
   }
 
   .skill-box {
@@ -153,10 +156,15 @@
   }
 
   .skill-box h3 {
-    font-size: 1rem;
+    font-size: clamp(0.9rem, 3vw, 1rem);
+    margin-bottom: 0.8rem;
   }
 
   .skill-box ul {
     font-size: 0.9rem;
+  }
+
+  .skill-box li {
+    margin-bottom: 0.4rem !important;
   }
 }

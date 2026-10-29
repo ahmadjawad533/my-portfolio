@@ -141,14 +141,14 @@ export default function Blog() {
             <p className="post-text">{p.text}</p>
 
             <div className="post-meta">
-              <span className="post-source">{p.source}</span>
+              <span className="post-source">📌 {p.source}</span>
               <a
                 className="post-link"
                 href={p.link}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Read article →
+                Read →
               </a>
             </div>
 

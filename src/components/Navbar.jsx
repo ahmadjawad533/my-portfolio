@@ -202,24 +202,43 @@ export default function Navbar() {
               ✕
             </button>
 
-            {links.map((l) => (
-              <NavLink
-                key={l.to}
-                to={l.to}
-                onClick={() => setIsOpen(false)}
-                style={{
-                  color: "#fff",
-                  textDecoration: "none",
-                  padding: "1rem 0",
-                  width: "100%",
-                  textAlign: "center",
-                  fontSize: 16,
-                  borderBottom: "1px solid rgba(255,255,255,0.05)",
-                }}
-              >
-                {l.label}
-              </NavLink>
-            ))}
+            {links.map((l) => {
+              const icons = {
+                "Home": "🏠",
+                "Projects": "💼",
+                "Gallery": "🖼️",
+                "Skills": "⚡",
+                "Achievements": "🏆",
+                "Blog": "📝",
+                "Resume": "📄",
+                "About Me": "👤",
+                "Contact": "📧",
+              };
+
+              return (
+                <NavLink
+                  key={l.to}
+                  to={l.to}
+                  onClick={() => setIsOpen(false)}
+                  style={{
+                    color: "#fff",
+                    textDecoration: "none",
+                    padding: "1rem 0",
+                    width: "100%",
+                    textAlign: "center",
+                    fontSize: 16,
+                    borderBottom: "1px solid rgba(255,255,255,0.05)",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    gap: "12px",
+                  }}
+                >
+                  <span style={{ fontSize: "1.5rem" }}>{icons[l.label] || "•"}</span>
+                  <span>{l.label}</span>
+                </NavLink>
+              );
+            })}
           </motion.div>
         )}
       </AnimatePresence>
